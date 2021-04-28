@@ -248,16 +248,16 @@ Steps:-
     leech - To Leech a torrent or download a direct link
     ytdl - Donwload YouTube Video
     pytdl - Download YouTube Playlist
-    about - About the bot
-    status - Status of all the downloads
+    abt - About the bot
+    stats - Status of all the downloads
     server - Get server status
-    usettings - User Settings
+    uset - User Settings
     instadl - Instagram Post/Reel/IGTV download
     settings - Settings of the bot ⚠️ Admin Only
     pauseall - Pause all torrents⚠️ Admin Only
     resumeall - Resume all torrents⚠️ Admin Only
     purge - Delete all torrents ⚠️ Admin Only
-    getlogs - Get the robot logs ⚠️ Admin Only
+    log - Get the robot logs ⚠️ Admin Only
 
 # Credits
 [Yash-DK](https://github.com/yash-dk)
