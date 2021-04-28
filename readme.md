@@ -250,7 +250,7 @@ Steps:-
     pytdl - Download YouTube Playlist
     abt - About the bot
     stats - Status of all the downloads
-    server - Get server status
+    stat - Get server status
     uset - User Settings
     instadl - Instagram Post/Reel/IGTV download
     settings - Settings of the bot ⚠️ Admin Only
