@@ -613,7 +613,7 @@ async def handle_server_command(message):
             f"<b>├ 🎮 RAM:</b> {mempercent}%\n"
             f"<b>├ 🔥 Cores:</b> {cores} | <b>Logical:</b> {lcores}\n"
             f"<b>├ 🎲 CPU Frequency:</b> <code>{freqcurrent}</code> Mhz\n"
-            f"│\n<b>╰──「</b> ⚡Mod by <code>@AZMirrorBot</code> 」\n"
+            f"│\n<b>╰──「</b> ⚡Mod by <code>@AT_BOTS</code> 」\n"
     )
     await message.reply(msg, parse_mode="html")
 
