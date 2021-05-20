@@ -8,7 +8,7 @@ class Commands:
     EXEC = "exec"
     UPLOAD = "upload"
     YTDL = "ytdl"
-    PYTDL = "pytd"
+    PYTDL = "pytdl"
     ABOUT = "abt"
     GETLOGS = "log"
     SERVER = "stat"
