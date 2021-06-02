@@ -15,25 +15,25 @@ except:
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
+        ALD_USR = [860473652,769718346,-1001372363145]
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
 
         # Time to wait before edit message
-        EDIT_SLEEP_SECS = 20
+        EDIT_SLEEP_SECS = 5
 
         # Telegram Upload Limit (in bytes)
-        TG_UP_LIMIT = 2147483648
+        TG_UP_LIMIT = 2000000000
 
         # Should force evething uploaded into Document
         FORCE_DOCUMENTS = False
 
         # Chracter to use as a completed progress 
-        COMPLETED_STR = "▓"
+        COMPLETED_STR = "▰"
 
         # Chracter to use as a incomplete progress
-        REMAINING_STR = "░"
+        REMAINING_STR = "▱"
 
         # DB URI for access
         DB_URI = os.environ.get("DATABASE_URL")
@@ -65,7 +65,7 @@ except:
         MAX_YTPLAYLIST_SIZE = 20
         
         # Max size of the torrent allowed
-        MAX_TORRENT_SIZE = 15
+        MAX_TORRENT_SIZE = 60
         
         # Set this to your bot username if you want to add the username of your bot at the end of the commands like
         # /leech@TorToolkitBot so the value will be @TorToolkitBot
@@ -74,7 +74,7 @@ except:
         # This is to stop someone from abusing the system by imposing the limit
         # [<GBs of total torrent sapce>, <Number of youtube videos allowed to download>, <Number of youtube playlists allowed to download>]
         USER_CAP_ENABLE = False
-        USER_CAP_LIMIT = [50,10,2]
+        USER_CAP_LIMIT = [50,10,5]
 
         # No need to worry about these
         # CHANGE THESE AT YOUR RISK
